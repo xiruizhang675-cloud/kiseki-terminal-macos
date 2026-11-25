@@ -1,44 +1,38 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Kiseki Terminal — Anime Theme Collection for Windows Terminal" width="100%" />
+  <img src="./assets/banner.svg" alt="Kiseki Terminal for macOS — Anime Theme Collection for Ghostty & Zsh" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/nerv-base/kiseki-terminal/releases"><img src="https://img.shields.io/github/v/release/nerv-base/kiseki-terminal?style=flat-square&color=ff82b8&label=Release" alt="Release" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-66f0ff?style=flat-square" alt="License: MIT" /></a>
-  <img src="https://img.shields.io/badge/Windows_Terminal-1.21%2B-7aa2f7?style=flat-square" alt="Windows Terminal 1.21+" />
-  <img src="https://img.shields.io/badge/Live_Shaders-60fps_HLSL-b48efe?style=flat-square" alt="60fps HLSL Shaders" />
+  <img src="https://img.shields.io/badge/Platform-macOS-ff82b8?style=flat-square" alt="macOS" />
+  <img src="https://img.shields.io/badge/Terminal-Ghostty_1.2%2B-7aa2f7?style=flat-square" alt="Ghostty 1.2+" />
+  <img src="https://img.shields.io/badge/Shell-Zsh_%2B_Oh_My_Zsh-b48efe?style=flat-square" alt="Zsh + Oh My Zsh" />
 </p>
 
-> 一套专为 **Windows Terminal + PowerShell + Oh My Posh + Fastfetch** 打造的二次元终端美学合集。  
-> 每套主题都包含 **按终端左右阅读区专门构图的二次元壁纸**、**从画面精确取色的 16 色 ANSI 方案**、**专属 Oh My Posh 提示符**、**手绘真彩半块像素 Fastfetch 徽章**、**定制字体栈**，以及 **一键热切换引擎**。
+> **Kiseki Terminal (macOS Edition)** — 将 [nerv-base/kiseki-terminal](https://github.com/nerv-base/kiseki-terminal) 原生移植到 **macOS + Ghostty + Zsh / Oh My Zsh + Oh My Posh + Fastfetch** 的二次元终端美化套件。  
+> 完整复用原项目的 4 套专属构图壁纸、16 色 ANSI 配色、Oh My Posh 提示符、Fastfetch 真彩半块像素徽章，并新增 **Ghostty 原生 GLSL CRT 着色器**、**Zsh 热切换引擎** 与 **Oh My Zsh / Powerlevel10k 零冲突一键安装卸载器**。
 
 ---
 
 ## Gallery / 主题预览
 
 ### 1. `starlight-8bit` — 星屑 8-Bit（复古像素夜空）
-> PC-98 / GBA 像素风 · 深靛夜空 `#0A0F25` + 街机霓虹青 + 樱花粉 · `DepartureMono NF` + `Fusion Pixel 12px` 像素中文 · RPG 抖动渐变 HUD (`░▒▓ ... ▓▒░` / `♥ ▶`)
+> PC-98 / GBA 像素风 · 深靛夜空 `#0A0F25` + 街机霓虹青 + 樱花粉 · RPG 抖动渐变 HUD (`░▒▓ ... ▓▒░` / `♥ ▶`)
 
 ![Starlight 8-Bit Preview](./previews/starlight-8bit.png)
 
----
-
 ### 2. `nerv-eva` — NERV UNIT-02（特务机关 弐号机战术蓝图）
-> 延续 [nerv-base/dsh-theme-eva](https://github.com/nerv-base/dsh-theme-eva) 设计语言 · 曜石暗黑 `#0B090A` + 弐号机装甲绯红 `#D8262E` + 战术橙标 `#F06A22` + 同步率荧光绿 `#3FE08A` · 右侧全高线稿蓝图与切角 `02` 铭牌 · `JetBrainsMono NF` · `▛ 02 ▟` / `┗━[弐号機] ▸`
+> 曜石暗黑 `#0B090A` + 弐号机装甲绯红 `#D8262E` + 战术橙标 `#F06A22` + 同步率荧光绿 `#3FE08A` · `▛ 02 ▟` / `┗━[弐号機] ▸`
 
 ![NERV UNIT-02 Preview](./previews/nerv-eva.png)
 
----
-
 ### 3. `shinkai-rain` — 言叶之雨（新海诚东京雨夜）
-> 剧场版厚涂雨夜电影感 · 靛青雨幕 `#0C1823` + 霓虹水青 + 便利店暖金散景 · `Maple Mono NF CN` · 极简玻璃雨滴弧线提示符 (`╭─ ☂ ...` / `╰─ ❯`)
+> 靛青雨幕 `#0C1823` + 霓虹水青 + 便利店暖金散景 · 极简玻璃雨滴弧线提示符 (`╭─ ☂ ...` / `╰─ ❯`)
 
 ![Shinkai Rain Preview](./previews/shinkai-rain.png)
 
----
-
 ### 4. `kyoto-sakura` — 夜樱绘卷（和风月夜神社）
-> 和风幻想剧场版 · 墨紫夜空 `#0F0B19` + 月下垂枝樱粉 + 石灯笼暖金 + 朱红鸟居 · `Maple Mono NF CN` · 日式直角引号印章提示符 (`「 ✿ ... 」` / `❀ ›`)
+> 墨紫夜空 `#0F0B19` + 月下垂枝樱粉 + 石灯笼暖金 + 朱红鸟居 · 日式直角引号印章提示符 (`「 ✿ ... 」` / `❀ ›`)
 
 ![Kyoto Sakura Preview](./previews/kyoto-sakura.png)
 
@@ -46,82 +40,66 @@
 
 ## Features / 核心特性
 
-- **60fps GPU 实时动态背景（4 套专属 HLSL 着色器）**：基于 Windows Terminal 原生 `experimental.pixelShaderPath` + `experimental.pixelShaderImagePath`（`t0`/`t1` 双纹理直通），在不牺牲原图真彩画质、不增加仓库体积的前提下实现实时动态效果，且**代码文字层 100% 锐利零模糊**：
-  - `starlight-8bit`：3×3 像素网格闪烁星空 + 周期性斜向像素流星 + 海面波光微颤 + CRT 呼吸光
-  - `nerv-eva`：MAGI 琥珀扫描光带 + AT-Field 六边形战术网格脉动 + 周期性水平切片 RGB 色差故障脉冲 + 蓝图红线同步心跳
-  - `shinkai-rain`：双层视差斜向东京雨丝 + 右下角湿漉积水涟漪折射 + 路灯与便利店散景呼吸光
-  - `kyoto-sakura`：双层飘落翻转樱花花瓣 + 游曳暖金萤火虫 + 石灯笼烛火摇曳 + 寺庙镜池水面微澜
-- **终端专属壁纸构图**：4 张壁纸均采用「左侧 58% 低干扰深色代码区 + 右下角 42% 视觉焦点」构图，着色器内置等比 `UniformToFill + BottomRight` 锚定算法，任意缩放窗口都不拉伸变形、不挡字。
-- **全链路色彩统一**：一套主题同步控制 Windows Terminal 窗口框架/标签页配色、ANSI 16 色、Oh My Posh 提示符、Fastfetch 卡片、PSReadLine 语法高亮、`eza` 文件树、`bat` 代码高亮、`fzf` 模糊搜索框。
-- **开箱即用的实时热切换 & 动静一键开关**：`theme <id>` 秒切主题，`live` 随时在 **60fps 动态模式** 与 **零功耗静态模式** 间切换，另有 `crt` 可选复古扫描线着色器。
+- **原生 Ghostty 适配**：通过 `config-file` 模块化挂载，零破坏保留你的原有 Ghostty 快捷键、Quick Terminal 与滚动配置；支持 `background-image-position = bottom-right` + `cover` 等比锚定。
+- **GLSL CRT 着色器**：将原版 HLSL 复古 CRT 荧光辉光 + 2px 微扫描线完整移植为 Ghostty 原生 Shadertoy GLSL（`shaders/retro-crt-subtle.glsl`），`crt` 一键开关，文字 100% 锐利。
+- **与 Oh My Zsh 和平共处**：仅接管提示符层（自动将 `ZSH_THEME` 留空，并安全注释 Powerlevel10k 相关行），在 `source "$ZSH/oh-my-zsh.sh"` **之后**加载提示符、`eza`/`bat` 别名与 `fastfetch`，完整保留你的 OMZ 插件与自动补全。
+- **全链路色彩统一**：一套主题同步切换 Ghostty 16 色、壁纸、光标、Oh My Posh、Fastfetch、`eza` 文件树、`bat` 语法高亮与 `fzf` 配色。
+- **自动备份 & 一键卸载**：安装前自动备份 `~/.zshrc` 与 Ghostty 配置到 `~/.config/kiseki-backup-*`，随时可 `./install.sh --uninstall` 干净还原。
 
 ---
 
-## Quick Install / 一键安装
+## Quick Install / 快速安装
 
-> 环境要求：Windows 10 / 11 + [Windows Terminal](https://aka.ms/terminal) + PowerShell（推荐 PowerShell 7+）
+### 环境要求
+- **macOS** + [Ghostty](https://ghostty.org/) `1.2+`
+- [Homebrew](https://brew.sh/)（用于自动安装 `oh-my-posh`、`fastfetch`、`eza`、`bat`）
+- 推荐安装 Nerd Font（如 `Maple Mono NF CN`、`JetBrainsMono Nerd Font`，或像素风 `DepartureMono Nerd Font`）以正常显示图标：
+  ```zsh
+  brew install --cask font-maple-mono-nf-cn
+  # 可选：为 starlight-8bit 安装 8-bit 像素英文字体
+  brew install --cask font-departure-mono-nerd-font
+  ```
 
-### 方式一：一行命令直接安装（推荐，无需先 clone）
-
-打开 PowerShell，直接粘贴运行：
-
-```powershell
-irm https://raw.githubusercontent.com/nerv-base/kiseki-terminal/main/install.ps1 | iex
+### 本地安装（推荐）
+```zsh
+git clone https://github.com/xiruizhang675-cloud/kiseki-terminal-macos.git
+cd kiseki-terminal-macos
+./install.sh
 ```
 
-### 方式二：Git Clone 本地安装（支持自定义参数）
-
-```powershell
-git clone https://github.com/nerv-base/kiseki-terminal.git
-cd kiseki-terminal
-powershell -ExecutionPolicy Bypass -File .\install.ps1
+### 一行命令远程安装
+```zsh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/xiruizhang675-cloud/kiseki-terminal-macos/main/install.sh)"
 ```
 
-可选参数：
-- `-Theme nerv-eva` — 指定默认启用的主题（`starlight-8bit` / `nerv-eva` / `shinkai-rain` / `kyoto-sakura`）
-- `-Static` — 默认使用零 GPU 重绘的静态背景模式（随时可用 `live` 开启 60fps 动态效果）
-- `-SkipTools` — 跳过 `winget` 工具安装（已安装 `oh-my-posh` / `eza` / `bat` / `fzf` / `zoxide` / `fastfetch` 时使用）
-- `-SkipFonts` — 跳过字体自动下载
+### 安装选项
+| 参数 | 说明 |
+| :--- | :--- |
+| `--theme <id>` | 指定默认主题：`starlight-8bit`（默认）/ `nerv-eva` / `shinkai-rain` / `kyoto-sakura` |
+| `--crt` | 默认开启复古 CRT GLSL 着色器 |
+| `--skip-tools` | 跳过 Homebrew 安装 `oh-my-posh` / `fastfetch` / `eza` / `bat` |
+| `--uninstall` | 卸载 Kiseki Terminal 并还原 `~/.zshrc` 与 Ghostty 配置 |
 
-安装前会自动备份原有 Windows Terminal `settings.json` 与 PowerShell `$PROFILE` 到 `~/.config/kiseki-backup-*`；安装完成后重开一个 Windows Terminal 窗口即可生效。
+安装完成后，在 Ghostty 中按 `Cmd + Shift + ,` 热重载配置，并执行 `exec zsh` 即可生效。
 
 ---
 
-## Commands / 常用切换命令
+## Commands / 日常热切换命令
 
 | 命令 | 说明 |
 | :--- | :--- |
-| `themes` | 查看所有已安装的二次元主题与当前激活状态 |
-| `theme starlight-8bit` | 实时切换到「星屑 8-Bit」 |
-| `theme nerv-eva` | 实时切换到「NERV MAGI 02」 |
-| `theme shinkai-rain` | 实时切换到「言叶之雨」 |
-| `theme kyoto-sakura` | 实时切换到「夜樱绘卷」 |
-| `live` / `motion` | 实时开/关 **60fps GPU 动态背景**（离电省电时可随时一键切静态） |
-| `crt` | 实时开/关复古 CRT 荧光辉光 + 扫描线 Shader |
-| `termfont 8bit \| code \| maple \| modern` | 单独切换字体栈（保留像素或圆体中文） |
-| `termbg 0.35` / `termbg -Off` | 微调壁纸透明度或暂时关闭壁纸 |
-| `fetch` | 重新展示当前主题的定制 Fastfetch 徽章与状态卡 |
-| `theme update` | 一键热更新到最新 GitHub Release（保留当前主题和动静开关，无需重装字体与工具） |
-| `theme update check` | 手动立即检查是否有新版本或新主题 |
-| `theme update mute` / `unmute` | 关闭 / 开启启动时的自动更新提醒 |
+| `themes` | 查看 4 套主题与当前激活状态 / CRT 状态 |
+| `theme <id>` | 一键热切换主题（支持 Tab 补全：`starlight-8bit` / `nerv-eva` / `shinkai-rain` / `kyoto-sakura`） |
+| `crt` / `crt on` / `crt off` | 开/关复古 CRT 荧光辉光 + 2px 扫描线 GLSL 着色器 |
+| `termbg 0.35` / `termbg off` / `termbg reset` | 调整壁纸透明度、关闭壁纸或恢复主题默认值 |
+| `termfont maple \| modern \| 8bit \| reset` | 单独切换字体栈或恢复默认 |
+| `fetch` | 重新展示当前主题的 Fastfetch 像素徽章（设 `NO_FETCH=1` 可跳过启动展示） |
+| `ls` / `ll` / `la` / `lt` / `cat` | 自动映射为随主题变色的 `eza` 与 `bat` |
 
 ---
 
-## Updating / 自动更新提醒与热升级
+## Credits & License / 致谢与许可
 
-- 每 **24 小时**在后台静默检查一次新版本（不阻塞终端启动、不消耗 GitHub API 配额）；
-- 当仓库发布新 Release 或新增主题时，打开终端会在 Fastfetch 下方温和提示一行，输入 `theme update` 即可在几秒内完成热升级，自动保留你的当前主题和 `live` 开关；
-- 如需关闭自动提醒，执行 `theme update mute`（或设置环境变量 `KISEKI_NO_UPDATE_CHECK=1`）。
-
----
-
-## Credits & Fonts / 字体与开源组件
-
-- [Departure Mono](https://github.com/rektdeckard/departure-mono) & [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
-- [Fusion Pixel Font (缝合像素字体)](https://github.com/TakWolf/fusion-pixel-font)
-- [Maple Mono NF CN](https://github.com/subframe7536/maple-font)
-- [Oh My Posh](https://ohmyposh.dev) · [Fastfetch](https://github.com/fastfetch-cli/fastfetch) · [eza](https://github.com/eza-community/eza) · [bat](https://github.com/sharkdp/bat) · [fzf](https://github.com/junegunn/fzf) · [zoxide](https://github.com/ajeetdsouza/zoxide)
-
-## License
-
-MIT
+- 原项目与全部二次元壁纸、16 色方案、Oh My Posh 提示符、Fastfetch 像素徽章及 HLSL CRT 着色器设计源自 **[nerv-base/kiseki-terminal](https://github.com/nerv-base/kiseki-terminal)**（MIT License）。
+- 字体与工具：[Maple Mono NF CN](https://github.com/subframe7536/maple-font) · [Departure Mono](https://github.com/rektdeckard/departure-mono) · [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font) · [Ghostty](https://ghostty.org) · [Oh My Posh](https://ohmyposh.dev) · [Fastfetch](https://github.com/fastfetch-cli/fastfetch) · [eza](https://github.com/eza-community/eza) · [bat](https://github.com/sharkdp/bat)
+- 本仓库延续原项目的 **MIT License**，详见 [LICENSE](./LICENSE)。

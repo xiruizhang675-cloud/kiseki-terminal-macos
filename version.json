@@ -1,8 +1,10 @@
 {
   "version": "1.0.0",
-  "tag": "v1.0.0",
+  "tag": "v1.0.0-macos",
+  "platform": "macos",
+  "terminal": "ghostty",
   "releasedAt": "2026-11-25",
-  "changelog": "4 curated anime themes (Starlight 8-Bit, NERV UNIT-02, Shinkai Rain, Kyoto Sakura), 60fps HLSL live shaders, and built-in `theme update` notifier.",
+  "changelog": "macOS + Ghostty + Zsh/OMZ port of Kiseki Terminal with 4 anime themes, Oh My Posh prompts, Fastfetch emblems, GLSL CRT shader, and one-click installer/uninstaller.",
   "themes": [
     "starlight-8bit",
     "nerv-eva",
